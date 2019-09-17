@@ -1,66 +1,170 @@
-<!-- COMEÇO DO SITE -->
+<style>
+  #member {
+      width: 100%;
+      max-width: 150px;
+      height: auto;
+  }
+  .left {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      float: left;
+  }
+  .right {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      float: right;
+  }
+  .container {
+      height: auto;
+      overflow: hidden;
+  }   
+  img {
+        border-radius: 50%;
+  }
+</style>
+
+<!-- EQUIPE FAUNa -->
 
 <div class="user-details">
-  <h1> Últimas Atualizações </h1>
-</div>
-<div class="user-projects">
-  <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>O PROJETO FAUNa se inicia a partir da colaboração entre os estudantes da CESAR School e do Laboratório de Objetos Urbanos Conectados, mais conhecido como LOUCo. O desafio dado pelos clientes tem como foco melhorar a conectividade entre usuários do laboratório. A partir disso, o grupo iniciou seu processo de imersão, inicialmente tentando entender a dor do cliente.
-    </p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Segundo o cliente, é muito difícil fazer uma ponte entre os usuários do laboratório, pois não há, atualmente, um meio concreto de registrar quais pessoas já passaram pelo laboratório. Isso faz com que a interação entre usuários não seja tão autônoma como desejado. Outro problema relatado pelos coordenadores dizia a respeito da impossibilidade de registrar as competências e áreas de expertise de cada usuário, algo que julgam vital para o refinamento dessa atmosfera autônoma do espaço. Mesmo que essa troca de informações ocorra, ela é muito informal e limitada à contatos dos próprios coordenadores e ao acaso.</p>
-    <a class="project-link" href="#">Check it out</a>
-  </div>
+  <h1> EQUIPE FAUNa </h1>
 </div>
 
- 
- <!-- ANTIGO ABOUT -->
- 
- <!-- <div class="user-details">
-  <h1> My Expertise </h1>
-  <p> {{site.user_description}} </p>
-</div>
+<div class="container">
   <div class="user">
-    <div class="tech">
-      <h2>Design</h2>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <div class="left">
+          <h3></h3>
+          <p>
+              Designer e Desenvolvedor de Jogos, 18 anos, formado no projeto NAVE em programação de jogos digitais e agora sigo
+              cursando design no CESAR School. Especialista em desenvolvimento de IoT, participando como mentor de diversos workshops
+              no LOUCo voltados para a melhoria da cidade. Participante de projetos como o Wereld, semifinalista do Technovation
+              challenge 2016.
+          </p>
+      </div>
+      <div class="right">
+          <h3>Guilherme Albuquerque (Full-stack Developer)</h3>
+          <img src="../assets/img/guilherme.jpeg" id="member" alt="Guilherme">
+      </div>
+  </div>
+
+  <div class="user">
+      <div class="left">
+          <h3>João Felipe (Full-stack Developer)</h3>
+          <img src="../assets/img/Cecilia.jpg" id="member" alt="João">
+      </div>
+      <div class="right">
+          <h3></h3>
+          <p>
+              Estudante de Design da Cesar, com 20 anos de idade, apresenta habilidades de desenho e trabalhos manuais como também
+              tem conhecimento na área de arquitetura e administração. Além disso, é fluente em inglês e tem o nível básico de
+              japonês. Tem interesse em trabalhar na parte de animação como também na área de jogos. Teve participação de trabalhar
+              com UX e UI no Projeto NESS.
+          </p>
+      </div>
+  </div>
+
+  <div class="user">
+      <div class="left">
+          <h3></h3>
+          <p>
+              Estudante de Design da Cesar School, 24 anos de idade, possui grande conhecimento
+              na área de jogos e gamificação, possui destreza com trabalhos manuais, 
+              tem experiência com edição de fotos e ilustrações digitais. Possui inglês avançado. 
+              Tem como objetivo principal trabalhar na área de jogos como Game lefter. 
+              Participação no Projeto NESS como UX e UI lefter.
+          </p>
+      </div>
+      <div class="right">
+          <h3>Arthur Katz (Full-stack Developer)</h3>
+          <img src="../assets/img/Kleber.jpg" id="member" alt="Arthur">
+      </div>
+  </div>
+</div>
+<div>
+  <div class="user">
+      <div class="left">
+          <h3>Lucas Cyrne (Full-stack Developer)</h3>
+          <img src="../assets/img/ReisO.png" id="member" alt="Lucas">
+      </div>
+      <div class="right">
+          <h3></h3>
+          <p>
+              Estudante de Ciência da Computação do Cesar, 19 anos, sempre muito interessado em assuntos 
+              relacionados a computadores e astronomia. Se descobriu na área de forma natural. 
+              Com bastante interesse em outras culturas e línguas, principalmente da Ásia, atualmente 
+              estuda chinês e japonês. Tem bastante interesse em trabalhar com tecnologia relacionada a astronomia e música.
+          </p>
+      </div>
+  </div>
+
+  <div class="user">
+      <div class="left">
+          <h3></h3>
+          <p>
+              Com 17 anos de idade está seguindo o caminho que sempre sonhou, o da tecnologia, 
+              e mais especificamente a criação das novas tecnologias, visando revolucionar e 
+              melhorar o ambiente ao seu redor com os seus conhecimentos. Hoje, aluno da CESAR School, 
+              está desenvolvendo habilidades relacionadas ao desenvolvimento de software e a resolução 
+              de problemas, sendo hoje parte do time de desenvolvedores do grupo ALPACK.
+          </p>
+      </div>
+      <div class="right">
+          <h3>José (UI/UX)</h3>
+          <img src="../assets/img/Pedro.png" id="member" alt="José">
+      </div>
+  </div>
+
+  <div class="user">
+      <div class="left">
+          <h3>Noelle (UI/UX)</h3>
+          <img src="../assets/img/Leo.png" id="member" alt="Noelle">
+      </div>
+      <div class="right">
+          <h3></h3>
+          <p>
+              Aos 19 anos, abandonou o curso de Fisioterapia para seguir um caminho diferente. 
+              Foi saindo da zona de conforto e deixando a busca por estabilidade para trás que 
+              desenvolveu autoconhecimento e assertividade para encontrar-se em Ciência da Computação. 
+              Adquiriu conhecimentos em desenvolvimento de software, metodologias ágeis e resolução de 
+              problemas. Hoje, aos 21 anos, faz parte do time de rights da ALPACK.
+          </p>
+      </div>
+  </div>
+
+  <div class="user">
+    <div class="left">
+        <h3></h3>
+        <p>
+            Com 17 anos de idade está seguindo o caminho que sempre sonhou, o da tecnologia, 
+            e mais especificamente a criação das novas tecnologias, visando revolucionar e 
+            melhorar o ambiente ao seu redor com os seus conhecimentos. Hoje, aluno da CESAR School, 
+            está desenvolvendo habilidades relacionadas ao desenvolvimento de software e a resolução 
+            de problemas, sendo hoje parte do time de desenvolvedores do grupo ALPACK.
+        </p>
     </div>
-    <div class="tech">
-      <h2>Code</h2>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-react-original-wordmark colored"></i>
-      <i class="devicon-nodejs-plain-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+    <div class="right">
+        <h3>Pedro Vilella (UI/UX)</h3>
+        <img src="../assets/img/Pedro.png" id="member" alt="Pedro">
     </div>
-    <div class="tech">
-      <h2>Tools</h2>
-      <i class="devicon-git-plain"></i>
-      <i class="devicon-gulp-plain colored"></i>
-      <i class="devicon-atom-original-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+  </div>
+
+  <div class="user">
+    <div class="left">
+        <h3>Arthur Ramos (UI/UX)</h3>
+        <img src="../assets/img/Leo.png" id="member" alt="Arthur">
     </div>
-</div> -->
+    <div class="right">
+        <h3></h3>
+        <p>
+            Aos 19 anos, abandonou o curso de Fisioterapia para seguir um caminho diferente. 
+            Foi saindo da zona de conforto e deixando a busca por estabilidade para trás que 
+            desenvolveu autoconhecimento e assertividade para encontrar-se em Ciência da Computação. 
+            Adquiriu conhecimentos em desenvolvimento de software, metodologias ágeis e resolução de 
+            problemas. Hoje, aos 21 anos, faz parte do time de rights da ALPACK.
+        </p>
+    </div>
+  </div>  
+</div>
